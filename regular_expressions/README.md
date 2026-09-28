@@ -24,3 +24,6 @@ This project contains Ruby scripts that use regular expressions built for the On
 
 ### 6. Call me maybe
 `6-phone_number.rb` accepts one argument and prints it only if the whole string is exactly 10 digits.
+
+### 7. OMG WHY ARE YOU SHOUTING
+`7-OMG_WHY_ARE_YOU_SHOUTING.rb` accepts one argument and prints only the capital letters found in it, joined together in order.
