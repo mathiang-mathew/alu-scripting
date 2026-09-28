@@ -18,3 +18,6 @@ This project contains Ruby scripts that use regular expressions built for the On
 
 ### 4. Repetition Token #3
 `4-repetition_token_3.rb` accepts one argument and prints it if it matches `hb`, followed by zero or more `t` characters, followed by `n`.
+
+### 5. Not quite HBTN yet
+`5-beginning_and_end.rb` accepts one argument and prints it only if the whole string starts with `h`, ends with `n`, and has exactly one character in between.
