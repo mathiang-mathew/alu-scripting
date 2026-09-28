@@ -6,3 +6,6 @@ This project contains Ruby scripts that use regular expressions built for the On
 
 ### 0. Simply matching School
 `0-simply_match_school.rb` accepts one argument and prints every occurrence of the word `School` found in it.
+
+### 1. Repetition Token #0
+`1-repetition_token_0.rb` accepts one argument and prints it if it matches `hb`, followed by two to five `t` characters, followed by `n`.
