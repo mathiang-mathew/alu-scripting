@@ -15,3 +15,6 @@ This project contains Ruby scripts that use regular expressions built for the On
 
 ### 3. Repetition Token #2
 `3-repetition_token_2.rb` accepts one argument and prints it if it matches `hb`, followed by one or more `t` characters, followed by `n`.
+
+### 4. Repetition Token #3
+`4-repetition_token_3.rb` accepts one argument and prints it if it matches `hb`, followed by zero or more `t` characters, followed by `n`.
