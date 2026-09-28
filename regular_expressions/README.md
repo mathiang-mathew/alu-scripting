@@ -21,3 +21,6 @@ This project contains Ruby scripts that use regular expressions built for the On
 
 ### 5. Not quite HBTN yet
 `5-beginning_and_end.rb` accepts one argument and prints it only if the whole string starts with `h`, ends with `n`, and has exactly one character in between.
+
+### 6. Call me maybe
+`6-phone_number.rb` accepts one argument and prints it only if the whole string is exactly 10 digits.
