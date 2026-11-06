@@ -10,18 +10,15 @@ def top_ten(subreddit):
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {"User-Agent": "Mathiang-ALU-api-advanced/1.0"}
-    params = {"limit": 10}
 
-    response = requests.get(
-        url, headers=headers, params=params, allow_redirects=False
-    )
+    response = requests.get(url, headers=headers, allow_redirects=False)
 
     if response.status_code != 200:
         print(None)
         return
 
     try:
-        posts = response.json()["data"]["children"]
+        posts = response.json()["data"]["children"][:10]
     except (ValueError, KeyError):
         print(None)
         return
