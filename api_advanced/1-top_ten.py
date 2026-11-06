@@ -12,8 +12,9 @@ def top_ten(subreddit):
     headers = {"User-Agent": "Mathiang-ALU-api-advanced/1.0"}
     params = {"limit": 10}
 
-    response = requests.get(url, headers=headers, params=params,
-                             allow_redirects=False)
+    response = requests.get(
+        url, headers=headers, params=params, allow_redirects=False
+    )
 
     if response.status_code != 200:
         print(None)
