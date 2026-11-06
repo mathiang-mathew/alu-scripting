@@ -42,7 +42,9 @@ def count_words(subreddit, word_list, after=None, counts=None):
         key = keyword.lower()
         totals[key] = totals.get(key, 0) + counts.get(key, 0)
 
-    for word, total in sorted(totals.items(),
-                               key=lambda item: (-item[1], item[0])):
+    sorted_totals = sorted(
+        totals.items(), key=lambda item: (-item[1], item[0])
+    )
+    for word, total in sorted_totals:
         if total > 0:
             print("{}: {}".format(word, total))
